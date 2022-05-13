@@ -1,5 +1,5 @@
+
 const search = document.querySelector("#search")
-const search = document.querySelector("#pesquisar")
 
 search.onclick = function(e){
     e.preventDefault()
