@@ -9,6 +9,6 @@ search.onclick = function(e){
     if(filterType === "all")alert("Busca geral por" + searchString)
     else if (filterType === "cod") alert("Busca pelo código por " + searchString)
     else if (filterType === "mat") alert("Busca pela matrícula por " + searchString)
-    else alert("Busca pelo nome por " + searchStri
+    else alert("Busca pelo nome por " + searchString)
 }
 
