@@ -7,17 +7,26 @@
     <title>Pratica05</title>
 </head>
 <body>
-
-<h1>Lista de Estudantes</h1>
-
-<form action="">
-    <input type="text" placeholder="nome,matricula ou codigo">
-    <input type="submit" id="pesquisar" value="pesquisar" ><br>
-    <input type="radio" name="searchfilter" value="cod" checked>Tudo
-    <input type="radio" name="searchfilter" value="cod">Código
-    <input type="radio" name="searchfilter" value="cod">Matricula
-    <input type="radio" name="searchfilter" value="cod">Nome
-</form>
+    <h1>Lista de Estudantes</h1>
+    <form action="">
+        <input type="text"
+            id="searchstring"
+            name="searchstring"
+            placeholder="nome, matricula ou código">
+        <input type="submit"
+            value="pesquisar" id="search"> <br>
+        <!-- Filtros -->
+        <input type="radio"
+            name="searchfilter"
+            value="all"
+            checked>Tudo <input type="radio"
+            name="searchfilter"
+            value="cod">Código <input type="radio"
+            name="searchfilter"
+            value="mat">Matrícula <input type="radio"
+            name="searchfilter"
+            value="name">Nome
+    </form>
 <table>
   <thead>
     <tr> 
